@@ -196,5 +196,10 @@
 		});
 	}
 	
+	/* === CopyRight === */
+	var date = new Date();
+	var fullYear = date.getFullYear();
+	var copyright = $('.copyright');
+	copyright[0].innerHTML = "&copy; " + fullYear + " Evolve Building Solutions | All Rights Reserved.";
 	
 })(jQuery);

@@ -716,7 +716,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-	background: url(../images/slider/evolve-banner.jpg) no-repeat top;
+	background: url(../images/banner-2.jpg) no-repeat top;
 	background-size: cover;
 	background-position: center center;
 	display: -webkit-box;
@@ -907,7 +907,7 @@ header .header-content.video-section .button.transparent:hover {
 -----------------------------------------*/
 
 #counter {
-	background:url(../images/counter-bg.jpg) no-repeat center;
+	background:url(../images/counter-bg-2.jpg) no-repeat center;
 	background-size:cover;
 	padding: 40px 0
 }
@@ -1691,12 +1691,12 @@ a.wit-btn {
 #testimonials {
 	color: #fff;
 	padding: 50px 0;
-	background: #555 url(../images/testimonial-bg.jpg) no-repeat center;
+	background: #fff url(../images/testimonial-bg-new.jpg) no-repeat bottom center;
 	background-size:cover;
 }
 #testimonials .section-title{margin-bottom:0;}
 #testimonials .section-title h3 {
-	color: #333;
+	color: #fff;
 }
 .testimonialsList {
 	list-style: none;
@@ -1708,27 +1708,27 @@ a.wit-btn {
 .testimonialsList li .clientname {
 	font-size: 24px;
 	font-weight: 700;
-	color: #000;
+	color: #fff;
 	margin-top: 10px;
 }
 .testimonialsList li p {
 	font-style: italic;
 	line-height: 26px;
-	color: #000;
+	color: #fff;
 	max-width:850px;
 	margin: 0 auto;
 	font-size: 18px;
 	border:1px solid #eee;
-	background:rgba(255,255,255,0.5);
+	background:rgba(255,255,255,0);
 	padding:20px;
 }
 .testimonialsList li .clientinfo {
 	font-weight: 600;
-	color: #555;
+	color: #fff;
 }
 #testimonials .section-title p {
 	font-size: 18px;
-	color:#666;
+	color:#fff;
 }
 /*---------------------------------------
     Prices section              
@@ -1906,7 +1906,7 @@ a.wit-btn {
     Taglinewrap section              
 -----------------------------------------*/
 .taglinewrap {
-	background:url(../images/counter-bg.jpg) no-repeat center;
+	background:url(../images/counter-bg-2.jpg) no-repeat center;
 	background-size:cover;
 	text-align: center;
 	padding: 50px 0;
@@ -2427,6 +2427,11 @@ h2 {
 h3 {
 	font-size: 12px;
 	letter-spacing: 2px;
+}
+
+.is-sticky .custom-navbar .navbar-brand .dark-logo{
+	position: relative;
+	left: .5rem;
 }
 }
  @media (max-width: 350px) {
