@@ -278,7 +278,7 @@ a:hover, a:active, a:focus {
 	position: absolute;
 	width: 20px;
 	height: 20px;
-	background: rgb(240,203,19);
+	background: #0289cd;
 	left:0px;
 	top:0px;
 	border-radius: 20px;
