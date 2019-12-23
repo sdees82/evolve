@@ -596,7 +596,20 @@ a:hover, a:active, a:focus {
 	}
 }
 
+/*---------------------------------------
+     Top bar            
+-----------------------------------------*/
+/* .top-bar{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background: #fff;
+	z-index: 10;
+} */
 
+.text-primary{
+	color: #0289cd !important;
+}
 /*---------------------------------------
      Navigation section              
 -----------------------------------------*/
@@ -1365,6 +1378,7 @@ a.wit-btn {
     -moz-transform: perspective(1000px);
     transition: 0.6s;
 	position: relative;
+	cursor: pointer;
 }
 
 .flipper .front, .flipper .back {
@@ -1390,7 +1404,7 @@ a.wit-btn {
 .flipper .front {	
 	z-index: 2;
 	-webkit-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
 }
 .flip-container .flipper:hover .front{
     -webkit-transform: rotateY(180deg);
@@ -1399,6 +1413,10 @@ a.wit-btn {
     transform: rotateY(180deg);
 }
 
+.no-flip:hover .front{
+	-webkit-transform: rotateY(0deg) !important;
+	-ms-transform: rotateY(0deg);
+}
 .flipper .back {
 	-webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
@@ -1451,7 +1469,7 @@ a.wit-btn {
 	left: 0;
 	margin-left: 0
 }
-.howitwrap .section-title h3:before {
+.howitwrap .section-title h3:before{
 	left: 26px;
 	margin-left: 0
 }
