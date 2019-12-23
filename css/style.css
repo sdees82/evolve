@@ -729,7 +729,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-	background: url(../images/banner-2.jpg) no-repeat top;
+	background: url(../images/banner-3.jpg) no-repeat top;
 	background-size: cover;
 	background-position: center center;
 	display: -webkit-box;
@@ -2450,6 +2450,16 @@ h3 {
 .is-sticky .custom-navbar .navbar-brand .dark-logo{
 	position: relative;
 	left: .5rem;
+}
+.h3-typewrite{
+	font-size: 1.5em !important;
+}
+.fullimg{
+	margin: 0;
+}
+.evolve-video{
+	width: 100%;
+	padding: 0 !important;
 }
 }
  @media (max-width: 350px) {
